@@ -1,0 +1,3 @@
+date => current date & time
+ncal=>callender
+clear=>clear terminal
