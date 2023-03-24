@@ -1,3 +1,5 @@
 date => current date & time
 ncal=>callender
 clear=>clear terminal
+options -h , -3
+command option 
