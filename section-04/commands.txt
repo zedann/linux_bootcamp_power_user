@@ -1,0 +1,24 @@
+man command => manual page
+type command
+which command
+help command
+------------exercise----------
+zedan@zedan-H310M-S2V-2-0:~$ man whoami
+zedan@zedan-H310M-S2V-2-0:~$ whoami
+zedan
+zedan@zedan-H310M-S2V-2-0:~$ man who
+zedan@zedan-H310M-S2V-2-0:~$ who
+zedan    :0           2023-03-24 12:00 (:0)
+zedan@zedan-H310M-S2V-2-0:~$ who -b
+         system boot  2023-03-24 12:00
+zedan@zedan-H310M-S2V-2-0:~$ type echo
+echo is a shell builtin
+zedan@zedan-H310M-S2V-2-0:~$ which echo
+/usr/bin/echo
+zedan@zedan-H310M-S2V-2-0:~$ type date
+date is /usr/bin/date
+zedan@zedan-H310M-S2V-2-0:~$ which date
+/usr/bin/date
+
+
+
