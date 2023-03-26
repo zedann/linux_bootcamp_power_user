@@ -165,3 +165,94 @@ zedan@zedan-H310M-S2V-2-0:~$
 zedan@zedan-H310M-S2V-2-0:~$ cd Desktop/
 zedan@zedan-H310M-S2V-2-0:~/Desktop$ cd ..
 zedan@zedan-H310M-S2V-2-0:~$ 
+--------------exercise-----------------------
+zedan@zedan-H310M-S2V-2-0:/usr/games$ cd 
+zedan@zedan-H310M-S2V-2-0:~$ cd 
+zedan@zedan-H310M-S2V-2-0:~$ cd Desktop/
+zedan@zedan-H310M-S2V-2-0:~/Desktop$ ls
+Farm  Farm.zip  linux_bootcamp_power_user  __MACOSX  networking.xopp  rand
+zedan@zedan-H310M-S2V-2-0:~/Desktop$ cd Farm/
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm$ ls
+Coop  Stable
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm$ cd Coop/
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Coop$ ls
+Chickens  Geese
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Coop$ cd Chickens/
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Coop/Chickens$ ls
+Buckbeak  Elvis  Ethel  Frida  Hippo  Jaba
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Coop/Chickens$ cd .
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Coop/Chickens$ cd ..
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Coop$ ls Chickens/
+Buckbeak  Elvis  Ethel  Frida  Hippo  Jaba
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Coop$ ls
+Chickens  Geese
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Coop$ ls Chickens/
+Buckbeak  Elvis  Ethel  Frida  Hippo  Jaba
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Coop$ ls -l
+total 8
+drwxr-xr-x 2 zedan zedan 4096 May  3  2021 Chickens
+drwxr-xr-x 2 zedan zedan 4096 May  3  2021 Geese
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Coop$ ls -l Chickens/
+total 0
+-rw-r--r-- 1 zedan zedan 0 May  3  2021 Buckbeak
+-rw-r--r-- 1 zedan zedan 0 Jan  1  1980 Elvis
+-rw-r--r-- 1 zedan zedan 0 May  3  2021 Ethel
+-rw-r--r-- 1 zedan zedan 0 May  3  2021 Frida
+-rw-r--r-- 1 zedan zedan 0 Nov 11  2021 Hippo
+-rw-r--r-- 1 zedan zedan 0 May  3  2021 Jaba
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Coop$ cd Chickens/
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Coop/Chickens$ ls
+Buckbeak  Elvis  Ethel  Frida  Hippo  Jaba
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Coop/Chickens$ cd ../Geese/
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Coop/Geese$ ls
+Amelia  Boris  Lucy  Muffin
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Coop/Geese$ ls -la --sort=size
+total 12
+drwxr-xr-x 2 zedan zedan 4096 May  3  2021 .
+drwxr-xr-x 4 zedan zedan 4096 May  3  2021 ..
+-rw-r--r-- 1 zedan zedan   15 May  3  2021 Muffin
+-rw-r--r-- 1 zedan zedan    0 May  3  2021 Amelia
+-rw-r--r-- 1 zedan zedan    0 May  3  2021 Boris
+-rw-r--r-- 1 zedan zedan    0 May  3  2021 Lucy
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Coop/Geese$ ls -lha --sort=size
+total 12K
+drwxr-xr-x 2 zedan zedan 4.0K May  3  2021 .
+drwxr-xr-x 4 zedan zedan 4.0K May  3  2021 ..
+-rw-r--r-- 1 zedan zedan   15 May  3  2021 Muffin
+-rw-r--r-- 1 zedan zedan    0 May  3  2021 Amelia
+-rw-r--r-- 1 zedan zedan    0 May  3  2021 Boris
+-rw-r--r-- 1 zedan zedan    0 May  3  2021 Lucy
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Coop/Geese$ ls -lh --sort=size
+total 4.0K
+-rw-r--r-- 1 zedan zedan 15 May  3  2021 Muffin
+-rw-r--r-- 1 zedan zedan  0 May  3  2021 Amelia
+-rw-r--r-- 1 zedan zedan  0 May  3  2021 Boris
+-rw-r--r-- 1 zedan zedan  0 May  3  2021 Lucy
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Coop/Geese$ cd ../../
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm$ ls
+Coop  Stable
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm$ cd :~/Desktop/Farm/Coop/Geese
+bash: cd: :~/Desktop/Farm/Coop/Geese: No such file or directory
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm$ cd ~/Desktop/Farm/Coop/Geese
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Coop/Geese$ cd ../../Stable/Horses/
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Stable/Horses$ ls
+Archer  Buttons  Cookie  Jett
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Stable/Horses$ ls
+Archer  Buttons  Cookie  Jett
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Stable/Horses$ ls -l
+total 0
+-rw-r--r-- 1 zedan zedan 0 May  3  2021 Archer
+-rw-r--r-- 1 zedan zedan 0 May  3  2021 Buttons
+-rw-r--r-- 1 zedan zedan 0 May  3  2021 Cookie
+-rw-r--r-- 1 zedan zedan 0 May  3  2021 Jett
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Stable/Horses$ ls -la
+total 8
+drwxr-xr-x 2 zedan zedan 4096 May  3  2021 .
+drwxr-xr-x 3 zedan zedan 4096 May  3  2021 ..
+-rw-r--r-- 1 zedan zedan    0 May  3  2021 Archer
+-rw-r--r-- 1 zedan zedan    0 May  3  2021 Buttons
+-rw-r--r-- 1 zedan zedan    0 May  3  2021 Cookie
+-rw-r--r-- 1 zedan zedan    0 May  3  2021 Jett
+-rw-r--r-- 1 zedan zedan    0 May  3  2021 .Troy
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Farm/Stable/Horses$ 
+
