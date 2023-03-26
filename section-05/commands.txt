@@ -1,0 +1,167 @@
+/=>root
+~=>home
+----------------
+zedan@zedan-H310M-S2V-2-0:~$ pwd
+/home/zedan
+zedan@zedan-H310M-S2V-2-0:~$ ls
+CLionProjects  Desktop  Documents  Downloads  Music  Pictures  Postman  projects  Public  snap  Templates  Videos
+zedan@zedan-H310M-S2V-2-0:~$ ls Desktop/
+linux_bootcamp_power_user  networking
+zedan@zedan-H310M-S2V-2-0:~$ pwd
+/home/zedan
+zedan@zedan-H310M-S2V-2-0:~$ ls 
+CLionProjects  Desktop  Documents  Downloads  Music  Pictures  Postman  projects  Public  snap  Templates  Videos
+zedan@zedan-H310M-S2V-2-0:~$ ls -l
+total 48
+drwxr-xr-x 3 zedan zedan 4096 Mar 26 01:39 CLionProjects
+drwxr-xr-x 3 zedan zedan 4096 Mar 26 05:00 Desktop
+drwxr-xr-x 3 zedan zedan 4096 Mar 26 03:33 Documents
+drwxr-xr-x 2 zedan zedan 4096 Mar 26 03:02 Downloads
+drwxr-xr-x 2 zedan zedan 4096 Mar 26 00:08 Music
+drwxr-xr-x 2 zedan zedan 4096 Mar 26 00:08 Pictures
+drwxr-xr-x 3 zedan zedan 4096 Mar 26 03:05 Postman
+drwxrwxr-x 3 zedan zedan 4096 Mar 26 03:59 projects
+drwxr-xr-x 2 zedan zedan 4096 Mar 26 00:08 Public
+drwx------ 3 zedan zedan 4096 Mar 26 00:08 snap
+drwxr-xr-x 2 zedan zedan 4096 Mar 26 04:01 Templates
+drwxr-xr-x 2 zedan zedan 4096 Mar 26 02:51 Videos
+zedan@zedan-H310M-S2V-2-0:~$ ls -a
+.              .cache         .dotnet     .java     .pam_environment  projects                   Templates  .zoom
+..             CLionProjects  Downloads   .lesshst  Pictures          Public                     .var
+.bash_history  .config        .gitconfig  .local    .pki              snap                       Videos
+.bash_logout   Desktop        .gnome      .mozilla  Postman           .ssh                       .vscode
+.bashrc        Documents      .gnupg      Music     .profile          .sudo_as_admin_successful  .xournal
+zedan@zedan-H310M-S2V-2-0:~$ ll
+total 140
+drwxr-x--- 28 zedan zedan 4096 Mar 26 05:36 ./
+drwxr-xr-x  3 root  root  4096 Mar 26 00:02 ../
+-rw-------  1 zedan zedan 2169 Mar 26 05:29 .bash_history
+-rw-r--r--  1 zedan zedan  220 Mar 26 00:02 .bash_logout
+-rw-r--r--  1 zedan zedan 3771 Mar 26 00:02 .bashrc
+drwx------ 20 zedan zedan 4096 Mar 26 03:41 .cache/
+drwxr-xr-x  3 zedan zedan 4096 Mar 26 01:39 CLionProjects/
+drwx------ 20 zedan zedan 4096 Mar 26 05:00 .config/
+drwxr-xr-x  3 zedan zedan 4096 Mar 26 05:00 Desktop/
+drwxr-xr-x  3 zedan zedan 4096 Mar 26 03:33 Documents/
+drwxrwxr-x  3 zedan zedan 4096 Mar 26 02:04 .dotnet/
+drwxr-xr-x  2 zedan zedan 4096 Mar 26 03:02 Downloads/
+-rw-rw-r--  1 zedan zedan   56 Mar 26 02:01 .gitconfig
+drwx------  3 zedan zedan 4096 Mar 26 02:50 .gnome/
+drwx------  2 zedan zedan 4096 Mar 26 05:32 .gnupg/
+drwxr-xr-x  4 zedan zedan 4096 Mar 26 01:38 .java/
+-rw-------  1 zedan zedan   20 Mar 26 05:36 .lesshst
+drwx------  3 zedan zedan 4096 Mar 26 00:08 .local/
+drwx------  4 zedan zedan 4096 Mar 26 00:21 .mozilla/
+drwxr-xr-x  2 zedan zedan 4096 Mar 26 00:08 Music/
+-rw-r--r--  1 zedan zedan  310 Mar 26 01:08 .pam_environment
+drwxr-xr-x  2 zedan zedan 4096 Mar 26 00:08 Pictures/
+drwx------  3 zedan zedan 4096 Mar 26 00:42 .pki/
+drwxr-xr-x  3 zedan zedan 4096 Mar 26 03:05 Postman/
+-rw-r--r--  1 zedan zedan  807 Mar 26 00:02 .profile
+drwxrwxr-x  3 zedan zedan 4096 Mar 26 03:59 projects/
+drwxr-xr-x  2 zedan zedan 4096 Mar 26 00:08 Public/
+drwx------  3 zedan zedan 4096 Mar 26 00:08 snap/
+drwx------  2 zedan zedan 4096 Mar 26 00:35 .ssh/
+-rw-r--r--  1 zedan zedan    0 Mar 26 00:11 .sudo_as_admin_successful
+drwxr-xr-x  2 zedan zedan 4096 Mar 26 04:01 Templates/
+drwxr-xr-x  3 zedan zedan 4096 Mar 26 00:36 .var/
+drwxr-xr-x  2 zedan zedan 4096 Mar 26 02:51 Videos/
+drwxrwxr-x  3 zedan zedan 4096 Mar 26 01:32 .vscode/
+drwx------  2 zedan zedan 4096 Mar 26 03:10 .xournal/
+drwx------  8 zedan zedan 4096 Mar 26 03:45 .zoom/
+zedan@zedan-H310M-S2V-2-0:~$ ls -la
+total 140
+drwxr-x--- 28 zedan zedan 4096 Mar 26 05:36 .
+drwxr-xr-x  3 root  root  4096 Mar 26 00:02 ..
+-rw-------  1 zedan zedan 2169 Mar 26 05:29 .bash_history
+-rw-r--r--  1 zedan zedan  220 Mar 26 00:02 .bash_logout
+-rw-r--r--  1 zedan zedan 3771 Mar 26 00:02 .bashrc
+drwx------ 20 zedan zedan 4096 Mar 26 03:41 .cache
+drwxr-xr-x  3 zedan zedan 4096 Mar 26 01:39 CLionProjects
+drwx------ 20 zedan zedan 4096 Mar 26 05:00 .config
+drwxr-xr-x  3 zedan zedan 4096 Mar 26 05:00 Desktop
+drwxr-xr-x  3 zedan zedan 4096 Mar 26 03:33 Documents
+drwxrwxr-x  3 zedan zedan 4096 Mar 26 02:04 .dotnet
+drwxr-xr-x  2 zedan zedan 4096 Mar 26 03:02 Downloads
+-rw-rw-r--  1 zedan zedan   56 Mar 26 02:01 .gitconfig
+drwx------  3 zedan zedan 4096 Mar 26 02:50 .gnome
+drwx------  2 zedan zedan 4096 Mar 26 05:32 .gnupg
+drwxr-xr-x  4 zedan zedan 4096 Mar 26 01:38 .java
+-rw-------  1 zedan zedan   20 Mar 26 05:36 .lesshst
+drwx------  3 zedan zedan 4096 Mar 26 00:08 .local
+drwx------  4 zedan zedan 4096 Mar 26 00:21 .mozilla
+drwxr-xr-x  2 zedan zedan 4096 Mar 26 00:08 Music
+-rw-r--r--  1 zedan zedan  310 Mar 26 01:08 .pam_environment
+drwxr-xr-x  2 zedan zedan 4096 Mar 26 00:08 Pictures
+drwx------  3 zedan zedan 4096 Mar 26 00:42 .pki
+drwxr-xr-x  3 zedan zedan 4096 Mar 26 03:05 Postman
+-rw-r--r--  1 zedan zedan  807 Mar 26 00:02 .profile
+drwxrwxr-x  3 zedan zedan 4096 Mar 26 03:59 projects
+drwxr-xr-x  2 zedan zedan 4096 Mar 26 00:08 Public
+drwx------  3 zedan zedan 4096 Mar 26 00:08 snap
+drwx------  2 zedan zedan 4096 Mar 26 00:35 .ssh
+-rw-r--r--  1 zedan zedan    0 Mar 26 00:11 .sudo_as_admin_successful
+drwxr-xr-x  2 zedan zedan 4096 Mar 26 04:01 Templates
+drwxr-xr-x  3 zedan zedan 4096 Mar 26 00:36 .var
+drwxr-xr-x  2 zedan zedan 4096 Mar 26 02:51 Videos
+drwxrwxr-x  3 zedan zedan 4096 Mar 26 01:32 .vscode
+drwx------  2 zedan zedan 4096 Mar 26 03:10 .xournal
+drwx------  8 zedan zedan 4096 Mar 26 03:45 .zoom
+zedan@zedan-H310M-S2V-2-0:~$ ls -h
+CLionProjects  Desktop  Documents  Downloads  Music  Pictures  Postman  projects  Public  snap  Templates  Videos
+zedan@zedan-H310M-S2V-2-0:~$ ls -lh
+total 48K
+drwxr-xr-x 3 zedan zedan 4.0K Mar 26 01:39 CLionProjects
+drwxr-xr-x 3 zedan zedan 4.0K Mar 26 05:00 Desktop
+drwxr-xr-x 3 zedan zedan 4.0K Mar 26 03:33 Documents
+drwxr-xr-x 2 zedan zedan 4.0K Mar 26 03:02 Downloads
+drwxr-xr-x 2 zedan zedan 4.0K Mar 26 00:08 Music
+drwxr-xr-x 2 zedan zedan 4.0K Mar 26 00:08 Pictures
+drwxr-xr-x 3 zedan zedan 4.0K Mar 26 03:05 Postman
+drwxrwxr-x 3 zedan zedan 4.0K Mar 26 03:59 projects
+drwxr-xr-x 2 zedan zedan 4.0K Mar 26 00:08 Public
+drwx------ 3 zedan zedan 4.0K Mar 26 00:08 snap
+drwxr-xr-x 2 zedan zedan 4.0K Mar 26 04:01 Templates
+drwxr-xr-x 2 zedan zedan 4.0K Mar 26 02:51 Videos
+zedan@zedan-H310M-S2V-2-0:~$ ls -la --sort=size
+total 140
+drwxr-x--- 28 zedan zedan 4096 Mar 26 05:36 .
+drwxr-xr-x  3 root  root  4096 Mar 26 00:02 ..
+drwx------ 20 zedan zedan 4096 Mar 26 03:41 .cache
+drwxr-xr-x  3 zedan zedan 4096 Mar 26 01:39 CLionProjects
+drwx------ 20 zedan zedan 4096 Mar 26 05:00 .config
+drwxr-xr-x  3 zedan zedan 4096 Mar 26 05:00 Desktop
+drwxr-xr-x  3 zedan zedan 4096 Mar 26 03:33 Documents
+drwxrwxr-x  3 zedan zedan 4096 Mar 26 02:04 .dotnet
+drwxr-xr-x  2 zedan zedan 4096 Mar 26 03:02 Downloads
+drwx------  3 zedan zedan 4096 Mar 26 02:50 .gnome
+drwx------  2 zedan zedan 4096 Mar 26 05:32 .gnupg
+drwxr-xr-x  4 zedan zedan 4096 Mar 26 01:38 .java
+drwx------  3 zedan zedan 4096 Mar 26 00:08 .local
+drwx------  4 zedan zedan 4096 Mar 26 00:21 .mozilla
+drwxr-xr-x  2 zedan zedan 4096 Mar 26 00:08 Music
+drwxr-xr-x  2 zedan zedan 4096 Mar 26 00:08 Pictures
+drwx------  3 zedan zedan 4096 Mar 26 00:42 .pki
+drwxr-xr-x  3 zedan zedan 4096 Mar 26 03:05 Postman
+drwxrwxr-x  3 zedan zedan 4096 Mar 26 03:59 projects
+drwxr-xr-x  2 zedan zedan 4096 Mar 26 00:08 Public
+drwx------  3 zedan zedan 4096 Mar 26 00:08 snap
+drwx------  2 zedan zedan 4096 Mar 26 00:35 .ssh
+drwxr-xr-x  2 zedan zedan 4096 Mar 26 04:01 Templates
+drwxr-xr-x  3 zedan zedan 4096 Mar 26 00:36 .var
+drwxr-xr-x  2 zedan zedan 4096 Mar 26 02:51 Videos
+drwxrwxr-x  3 zedan zedan 4096 Mar 26 01:32 .vscode
+drwx------  2 zedan zedan 4096 Mar 26 03:10 .xournal
+drwx------  8 zedan zedan 4096 Mar 26 03:45 .zoom
+-rw-r--r--  1 zedan zedan 3771 Mar 26 00:02 .bashrc
+-rw-------  1 zedan zedan 2169 Mar 26 05:29 .bash_history
+-rw-r--r--  1 zedan zedan  807 Mar 26 00:02 .profile
+-rw-r--r--  1 zedan zedan  310 Mar 26 01:08 .pam_environment
+-rw-r--r--  1 zedan zedan  220 Mar 26 00:02 .bash_logout
+-rw-rw-r--  1 zedan zedan   56 Mar 26 02:01 .gitconfig
+-rw-------  1 zedan zedan   20 Mar 26 05:36 .lesshst
+-rw-r--r--  1 zedan zedan    0 Mar 26 00:11 .sudo_as_admin_successful
+zedan@zedan-H310M-S2V-2-0:~$ 
+zedan@zedan-H310M-S2V-2-0:~$ cd Desktop/
+zedan@zedan-H310M-S2V-2-0:~/Desktop$ cd ..
+zedan@zedan-H310M-S2V-2-0:~$ 
