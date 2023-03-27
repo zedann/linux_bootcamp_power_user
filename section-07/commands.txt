@@ -1,0 +1,30 @@
+nano
+========exercise=========
+zedan@zedan-H310M-S2V-2-0:~/Desktop$ cd NanoExercise/
+zedan@zedan-H310M-S2V-2-0:~/Desktop/NanoExercise$ ls
+country-data.json  recipe.txt  review.txt  website.html
+zedan@zedan-H310M-S2V-2-0:~/Desktop/NanoExercise$ nano recipe.txt 
+zedan@zedan-H310M-S2V-2-0:~/Desktop/NanoExercise$ nano recipe.txt 
+zedan@zedan-H310M-S2V-2-0:~/Desktop/NanoExercise$ nano website.html 
+zedan@zedan-H310M-S2V-2-0:~/Desktop/NanoExercise$ man nano
+zedan@zedan-H310M-S2V-2-0:~/Desktop/NanoExercise$ nano country-data.json 
+zedan@zedan-H310M-S2V-2-0:~/Desktop/NanoExercise$ nano review.txt 
+zedan@zedan-H310M-S2V-2-0:~/Desktop/NanoExercise$ man nano
+zedan@zedan-H310M-S2V-2-0:~/Desktop/NanoExercise$ nano country-data.json 
+zedan@zedan-H310M-S2V-2-0:~/Desktop/NanoExercise$ man nano
+zedan@zedan-H310M-S2V-2-0:~/Desktop/NanoExercise$ nano country-data.json 
+zedan@zedan-H310M-S2V-2-0:~/Desktop/NanoExercise$ man nano 
+zedan@zedan-H310M-S2V-2-0:~/Desktop/NanoExercise$ nano +15399 country-data.json 
+zedan@zedan-H310M-S2V-2-0:~/Desktop/NanoExercise$ cat review.txt 
+REVIEWS
+=======
+This is an excellent recipe. 
+This version is simple and delicious. 
+I have a few suggestions:
+	- your cheese should be ROOM temperature before you use it. 
+	- heat up the pepper before adding the butter
+	- use tongs!
+ANGELO
+11/27/2021
+zedan@zedan-H310M-S2V-2-0:~/Desktop/NanoExercise$ nano recipe.txt 
+zedan@zedan-H310M-S2V-2-0:~/Desktop/NanoExercise$ nano recipe.txt
