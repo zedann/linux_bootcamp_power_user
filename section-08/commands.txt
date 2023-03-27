@@ -1,0 +1,66 @@
+rm,rm -d , rm -r , mv , cp
+-------------exercise--------------
+zedan@zedan-H310M-S2V-2-0:~$ cd Desktop/
+zedan@zedan-H310M-S2V-2-0:~/Desktop$ ls
+clion.desktop              linux-expermintals  NanoExercise.zip  PhpStorm.desktop  Todos
+linux_bootcamp_power_user  NanoExercise        networking.xopp   telegram.desktop
+zedan@zedan-H310M-S2V-2-0:~/Desktop$ mkdir Bootcamp
+zedan@zedan-H310M-S2V-2-0:~/Desktop$ cd 
+zedan@zedan-H310M-S2V-2-0:~$ cd Desktop/
+zedan@zedan-H310M-S2V-2-0:~/Desktop$ cd Bootcamp/
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp$ ls
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp$ mkdir FallCohort WinterCohort
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp$ ls
+FallCohort  WinterCohort
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp$ cd FallCohort/
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/FallCohort$ cd ..
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp$ cd FallCohort/
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/FallCohort$ ls
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/FallCohort$ touch Italo.txt Edgar.txt Linus.txt Sara.txt Silvio.txt 
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/FallCohort$ mkdir Waitlist
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/FallCohort$ cd Waitlist/
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/FallCohort/Waitlist$ touch Hanna.txt Haris.txt Netta.txt
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/FallCohort/Waitlist$ cd ../..
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp$ cd WinterCohort/
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/WinterCohort$ touch Santiago.txt Iris.txt Naomi.txt
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/WinterCohort$ ls
+Iris.txt  Naomi.txt  Santiago.txt
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/WinterCohort$ cd ../
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp$ cd FallCohort/
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/FallCohort$ ls
+Edgar.txt  Italo.txt  Linus.txt  Sara.txt  Silvio.txt  Waitlist
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/FallCohort$ rm Edgar.txt 
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/FallCohort$ ls
+Italo.txt  Linus.txt  Sara.txt  Silvio.txt  Waitlist
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/FallCohort$ mv Waitlist/Netta.txt ./
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/FallCohort$ ls
+Italo.txt  Linus.txt  Netta.txt  Sara.txt  Silvio.txt  Waitlist
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/FallCohort$ ls Waitlist/
+Hanna.txt  Haris.txt
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/FallCohort$ rm -r Waitlist/
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/FallCohort$ ls
+Italo.txt  Linus.txt  Netta.txt  Sara.txt  Silvio.txt
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/FallCohort$ mv Italo.txt ../WinterCohort/
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/FallCohort$ ls
+Linus.txt  Netta.txt  Sara.txt  Silvio.txt
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/FallCohort$ ls ../WinterCohort/
+Iris.txt  Italo.txt  Naomi.txt  Santiago.txt
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp/FallCohort$ cd ../
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp$ cp WinterCohort/ ./SpringCohort
+cp: -r not specified; omitting directory 'WinterCohort/'
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp$ cp WinterCohort/ ./SpringCohort -r
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp$ ls
+FallCohort  SpringCohort  WinterCohort
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp$ ls SpringCohort/
+Iris.txt  Italo.txt  Naomi.txt  Santiago.txt
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp$ ls
+FallCohort  SpringCohort  WinterCohort
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp$ mv WinterCohort/ ./WinterCohortCANCELLED
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp$ ls
+FallCohort  SpringCohort  WinterCohortCANCELLED
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp$ rm -r ~/Desktop/Bootcamp
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp$ ls
+zedan@zedan-H310M-S2V-2-0:~/Desktop/Bootcamp$ cd ../
+zedan@zedan-H310M-S2V-2-0:~/Desktop$ ls
+clion.desktop              linux-expermintals  NanoExercise.zip  PhpStorm.desktop  Todos
+linux_bootcamp_power_user  NanoExercise        networking.xopp   telegram.desktop
