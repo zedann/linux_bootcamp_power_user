@@ -1,2 +1,27 @@
 touch , mkdir , file
----------------------
+---------exercise------------
+zedan@zedan-H310M-S2V-2-0:~/Desktop/linux-expermintals$ cd
+zedan@zedan-H310M-S2V-2-0:~$ mkdir my-app
+zedan@zedan-H310M-S2V-2-0:~$ cd my-app/
+zedan@zedan-H310M-S2V-2-0:~/my-app$ touch README.md package.json
+zedan@zedan-H310M-S2V-2-0:~/my-app$ ls
+package.json  README.md
+zedan@zedan-H310M-S2V-2-0:~/my-app$ mkdir public 
+zedan@zedan-H310M-S2V-2-0:~/my-app$ touch public/index.html
+zedan@zedan-H310M-S2V-2-0:~/my-app$ ls
+package.json  public  README.md
+zedan@zedan-H310M-S2V-2-0:~/my-app$ ls public/
+index.html
+zedan@zedan-H310M-S2V-2-0:~/my-app$ mkdir src 
+zedan@zedan-H310M-S2V-2-0:~/my-app$ cd src/
+zedan@zedan-H310M-S2V-2-0:~/my-app/src$ ls
+zedan@zedan-H310M-S2V-2-0:~/my-app/src$ touch App.css App.js index.css index.js
+zedan@zedan-H310M-S2V-2-0:~/my-app/src$ ls
+App.css  App.js  index.css  index.js
+zedan@zedan-H310M-S2V-2-0:~/my-app/src$ mkdir -p components/Navbar 
+zedan@zedan-H310M-S2V-2-0:~/my-app/src$ ls
+App.css  App.js  components  index.css  index.js
+zedan@zedan-H310M-S2V-2-0:~/my-app/src$ cd components/
+zedan@zedan-H310M-S2V-2-0:~/my-app/src/components$ ls
+Navbar
+
