@@ -1,0 +1,1 @@
+cat , less , head , tail , sort , wc , tac , rev
