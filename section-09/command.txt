@@ -1,0 +1,12 @@
+shortcuts 
+- ctrl + l => clear 
+- ctrl + a => jump to beginning & ctrl + e => jumb to end
+- ctrl + f => forward char & ctrl + b => backwards char
+- alt + f => move one word forward & alt + b => move one word backwards
+- ctrl + t => swap char with prev one & alt + t => swap word
+- ctrl + k => killing text (cursor : end of the line) & ctrl + u => killing text (cursor:beginning of the line)
+- alt + d => killing text (cursor : end of current word) & ctrl + W | alt+delete => killing text (cursor : beginning of current word)
+- ctrl + d => killing the selected char
+- ctrl + y => back last killed
+- history => show history of commands || ~(no of command in history) || ctrl + r => search for command in history (press it again will suggest another command)
+
