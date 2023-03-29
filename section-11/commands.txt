@@ -1,0 +1,132 @@
+redirect std output | input | error
+-----------------------------------
+command > file (overrwrite)
+command >> file (append)
+command 2> file (error) 
+0 -> input / 1 -> output / 2 -> error
+--------------exercise------------------
+               
+ [~/Desktop/Redirection/exercise]
+ zedan  ls
+Wildlife
+               
+ [~/Desktop/Redirection/exercise]
+ zedan  cd Wildlife 
+               
+ [~/Desktop/Redirection/exercise/Wildlife]
+ zedan  ls
+angela-survey.txt  juan-survey.txt  nico-survey.txt
+               
+ [~/Desktop/Redirection/exercise/Wildlife]
+ zedan  cat angela-survey.txt juan-survey.txt nico-survey.txt > all-species.txt 
+               
+ [~/Desktop/Redirection/exercise/Wildlife]
+ zedan  cat all-species.txt                                                     
+Scarlet Macaw
+Collared Peccary
+Capybara
+Spectacled Caiman
+Spider Monkey
+Red Howler Monkey
+Red Howler Monkey
+Blue and Gold Macaw
+Mealy Parrot
+Atlantic Titi
+Capybara
+Spectacled Caiman
+Collared Peccary
+Tapir
+Blue and Gold Macaw
+Green-Winged Macaw
+Scarlet Macaw
+Capybara
+Capuchin
+Red Howler Monkey
+Monk Saki Monkey
+Agouti
+               
+ [~/Desktop/Redirection/exercise/Wildlife]
+ zedan  sort all-species.txt -u > sorted-animals.txt
+               
+ [~/Desktop/Redirection/exercise/Wildlife]
+ zedan  cat sorted-animals.txt 
+Agouti
+Atlantic Titi
+Blue and Gold Macaw
+Capuchin
+Capybara
+Collared Peccary
+Green-Winged Macaw
+Mealy Parrot
+Monk Saki Monkey
+Red Howler Monkey
+Scarlet Macaw
+Spectacled Caiman
+Spider Monkey
+Tapir
+               
+ [~/Desktop/Redirection/exercise/Wildlife]
+ zedan  date >> sorted-animals.txt 
+               
+ [~/Desktop/Redirection/exercise/Wildlife]
+ zedan  cat sorted-animals.txt 
+Agouti
+Atlantic Titi
+Blue and Gold Macaw
+Capuchin
+Capybara
+Collared Peccary
+Green-Winged Macaw
+Mealy Parrot
+Monk Saki Monkey
+Red Howler Monkey
+Scarlet Macaw
+Spectacled Caiman
+Spider Monkey
+Tapir
+Wed Mar 29 04:23:19 AM EET 2023
+               
+ [~/Desktop/Redirection/exercise/Wildlife]
+ zedan  echo Green Anaconda >> sorted-animals.txt 
+               
+ [~/Desktop/Redirection/exercise/Wildlife]
+ zedan  cat sorted-animals.txt 
+Agouti
+Atlantic Titi
+Blue and Gold Macaw
+Capuchin
+Capybara
+Collared Peccary
+Green-Winged Macaw
+Mealy Parrot
+Monk Saki Monkey
+Red Howler Monkey
+Scarlet Macaw
+Spectacled Caiman
+Spider Monkey
+Tapir
+Wed Mar 29 04:23:19 AM EET 2023
+Green Anaconda
+               
+ [~/Desktop/Redirection/exercise/Wildlife]
+ zedan  asdasd >> sorted-animals.txt 2>&1
+               
+ [~/Desktop/Redirection/exercise/Wildlife]
+ ✘  zedan  cat sorted-animals.txt 
+Agouti
+Atlantic Titi
+Blue and Gold Macaw
+Capuchin
+Capybara
+Collared Peccary
+Green-Winged Macaw
+Mealy Parrot
+Monk Saki Monkey
+Red Howler Monkey
+Scarlet Macaw
+Spectacled Caiman
+Spider Monkey
+Tapir
+Wed Mar 29 04:23:19 AM EET 2023
+Green Anaconda
+zsh: command not found: asdasd
