@@ -1,0 +1,93 @@
+elliot@elliot:~$ cd Desktop/linux-things/
+elliot@elliot:~/Desktop/linux-things$ mkdir Exercise
+elliot@elliot:~/Desktop/linux-things$ cd Exercise/
+elliot@elliot:~/Desktop/linux-things/Exercise$ ls
+elliot@elliot:~/Desktop/linux-things/Exercise$ touch morning-day-{1..30} afternoon-day-{1..30}
+elliot@elliot:~/Desktop/linux-things/Exercise$ ls
+afternoon-day-1   afternoon-day-23  morning-day-1   morning-day-23
+afternoon-day-10  afternoon-day-24  morning-day-10  morning-day-24
+afternoon-day-11  afternoon-day-25  morning-day-11  morning-day-25
+afternoon-day-12  afternoon-day-26  morning-day-12  morning-day-26
+afternoon-day-13  afternoon-day-27  morning-day-13  morning-day-27
+afternoon-day-14  afternoon-day-28  morning-day-14  morning-day-28
+afternoon-day-15  afternoon-day-29  morning-day-15  morning-day-29
+afternoon-day-16  afternoon-day-3   morning-day-16  morning-day-3
+afternoon-day-17  afternoon-day-30  morning-day-17  morning-day-30
+afternoon-day-18  afternoon-day-4   morning-day-18  morning-day-4
+afternoon-day-19  afternoon-day-5   morning-day-19  morning-day-5
+afternoon-day-2   afternoon-day-6   morning-day-2   morning-day-6
+afternoon-day-20  afternoon-day-7   morning-day-20  morning-day-7
+afternoon-day-21  afternoon-day-8   morning-day-21  morning-day-8
+afternoon-day-22  afternoon-day-9   morning-day-22  morning-day-9
+elliot@elliot:~/Desktop/linux-things/Exercise$ 
+elliot@elliot:~/Desktop/linux-things/Exercise$ ls
+afternoon-day-1   afternoon-day-23  morning-day-1   morning-day-23
+afternoon-day-10  afternoon-day-24  morning-day-10  morning-day-24
+afternoon-day-11  afternoon-day-25  morning-day-11  morning-day-25
+afternoon-day-12  afternoon-day-26  morning-day-12  morning-day-26
+afternoon-day-13  afternoon-day-27  morning-day-13  morning-day-27
+afternoon-day-14  afternoon-day-28  morning-day-14  morning-day-28
+afternoon-day-15  afternoon-day-29  morning-day-15  morning-day-29
+afternoon-day-16  afternoon-day-3   morning-day-16  morning-day-3
+afternoon-day-17  afternoon-day-30  morning-day-17  morning-day-30
+afternoon-day-18  afternoon-day-4   morning-day-18  morning-day-4
+afternoon-day-19  afternoon-day-5   morning-day-19  morning-day-5
+afternoon-day-2   afternoon-day-6   morning-day-2   morning-day-6
+afternoon-day-20  afternoon-day-7   morning-day-20  morning-day-7
+afternoon-day-21  afternoon-day-8   morning-day-21  morning-day-8
+afternoon-day-22  afternoon-day-9   morning-day-22  morning-day-9
+elliot@elliot:~/Desktop/linux-things/Exercise$ touch todos-$(date +"%m-%d-%y").txt
+elliot@elliot:~/Desktop/linux-things/Exercise$ ls
+afternoon-day-1   afternoon-day-24  morning-day-11  morning-day-26
+afternoon-day-10  afternoon-day-25  morning-day-12  morning-day-27
+afternoon-day-11  afternoon-day-26  morning-day-13  morning-day-28
+afternoon-day-12  afternoon-day-27  morning-day-14  morning-day-29
+afternoon-day-13  afternoon-day-28  morning-day-15  morning-day-3
+afternoon-day-14  afternoon-day-29  morning-day-16  morning-day-30
+afternoon-day-15  afternoon-day-3   morning-day-17  morning-day-4
+afternoon-day-16  afternoon-day-30  morning-day-18  morning-day-5
+afternoon-day-17  afternoon-day-4   morning-day-19  morning-day-6
+afternoon-day-18  afternoon-day-5   morning-day-2   morning-day-7
+afternoon-day-19  afternoon-day-6   morning-day-20  morning-day-8
+afternoon-day-2   afternoon-day-7   morning-day-21  morning-day-9
+afternoon-day-20  afternoon-day-8   morning-day-22  todos-04-07-23.txt
+afternoon-day-21  afternoon-day-9   morning-day-23
+afternoon-day-22  morning-day-1     morning-day-24
+afternoon-day-23  morning-day-10    morning-day-25
+ elliot  echo *9
+afternoon-day-19 afternoon-day-29 afternoon-day-9 morning-day-19 morning-day-29 morning-day-9
+               
+ [~/Desktop/linux-things/Exercise]
+ elliot  echo *1?
+afternoon-day-10 afternoon-day-11 afternoon-day-12 afternoon-day-13 afternoon-day-14 afternoon-day-15 afternoon-day-16 afternoon-day-17 afternoon-day-18 afternoon-day-19 morning-day-10 morning-day-11 morning-day-12 morning-day-13 morning-day-14 morning-day-15 morning-day-16 morning-day-17 morning-day-18 morning-day-19
+               
+ [~/Desktop/linux-things/Exercise]
+ elliot  ls   
+afternoon-day-1   afternoon-day-18  afternoon-day-26  afternoon-day-7
+afternoon-day-10  afternoon-day-19  afternoon-day-27  afternoon-day-8
+afternoon-day-11  afternoon-day-2   afternoon-day-28  afternoon-day-9
+afternoon-day-12  afternoon-day-20  afternoon-day-29  Mornings
+afternoon-day-13  afternoon-day-21  afternoon-day-3   todos-04-07-23.txt
+afternoon-day-14  afternoon-day-22  afternoon-day-30  Year
+afternoon-day-15  afternoon-day-23  afternoon-day-4
+afternoon-day-16  afternoon-day-24  afternoon-day-5
+afternoon-day-17  afternoon-day-25  afternoon-day-6
+               
+ [~/Desktop/linux-things/Exercise]
+ elliot  touch Year/{Winter,Spring,Summer,Fall}/{Yard,House}/{todos.txt,done.txt}
+               
+ [~/Desktop/linux-things/Exercise]
+ elliot  ls Year/Winter/Yard 
+done.txt  todos.txt
+               
+ [~/Desktop/linux-things/Exercise]
+ elliot  ls                 
+afternoon-day-1   afternoon-day-18  afternoon-day-26  afternoon-day-7
+afternoon-day-10  afternoon-day-19  afternoon-day-27  afternoon-day-8
+afternoon-day-11  afternoon-day-2   afternoon-day-28  afternoon-day-9
+afternoon-day-12  afternoon-day-20  afternoon-day-29  Mornings
+afternoon-day-13  afternoon-day-21  afternoon-day-3   todos-04-07-23.txt
+afternoon-day-14  afternoon-day-22  afternoon-day-30  Year
+afternoon-day-15  afternoon-day-23  afternoon-day-4
+afternoon-day-16  afternoon-day-24  afternoon-day-5
+afternoon-day-17  afternoon-day-25  afternoon-day-6
